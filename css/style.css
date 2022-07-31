@@ -1,0 +1,117 @@
+*{
+    scroll-behavior: smooth;
+    font-family: "NomadArtAcademy";
+}
+@font-face{
+	font-family: "NomadArtAcademy";
+	src: url("../fuentes/NomadArtAcademy.woff") format("woff");
+    src: url("../fuentes/NomadArtAcademy.woff2") format("woff2");
+}
+@font-face{
+	font-family: "NomadArtAcademy-Slim";
+	src: url("../fuentes/NomadArtAcademy-Slim.woff") format("woff");
+    src: url("../fuentes/NomadArtAcademy-Slim.woff2") format("woff2");
+}
+@font-face{
+	font-family: "NomadArtAcademy-Bold";
+	src: url("../fuentes/NomadArtAcademy-Bold.woff") format("woff");
+    src: url("../fuentes/NomadArtAcademy-Bold.woff2") format("woff2");
+}
+.hero{
+    height: 230vh;
+    width: 100vw;
+    background-color: #FFFFFF;
+}
+.hero_fotos{
+    height: 250vh;
+    width: 100vw;
+    text-align: center;
+}
+canvas{
+    position: sticky;
+    top: 0%;
+    transform: translate(0, -15%);
+    max-height: 120vh;
+    margin-left: -9999%;
+    margin-right: -9999%;
+}
+.textoresaltado{
+    font-family: "NomadArtAcademy-Bold" !important;
+    text-align: center;
+    padding: 10%;
+}
+.pegado{
+    position: sticky;
+}
+
+.menudenavegacion{
+    display: flex;
+    background-color: black;
+    position: sticky;
+    top: 0%;
+}
+ul:menudenavegacion{
+    display: flex;
+    list-style: none;
+}
+
+.contenido{
+    height: 1050vh;
+    width: 100vw;
+    padding: 10%;
+}
+.menudenavegacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+    position: sticky;
+    top: 0%;
+}
+.menudenavegacion ul{
+    padding-top: 4vh;
+    display: flex;
+    list-style: none;
+}
+.menudenavegacion a{
+    margin: 1vw 5vw;
+}
+.footer{
+    width: 100vw;
+    margin-left: 0%;
+    padding-left: 0%;
+}
+.coloramarillo{
+	color: yellow !important;
+}
+.colornegro{
+	color: black !important;
+}
+.titulote{
+    font-size: 100px;
+}
+a:visited {
+ 	color: yellow;
+ 	text-decoration: none;
+}
+a:link {
+ 	color: yellow;
+ 	text-decoration: none;
+}
+a:hover {
+ 	color: grey;
+ 	text-decoration: none;
+}
+a:active {
+ 	color: blue;
+ 	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+i{
+	color: grey !important;
+}
+video{
+	max-width: 90%;
+}
